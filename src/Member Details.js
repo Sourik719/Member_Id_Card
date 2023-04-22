@@ -4,7 +4,7 @@ import axios from 'axios';
 import Footer from './footer';
 import Header from './header';
 import biku from './Images/BIKU.jpeg';
-import {QrReader} from 'react-qr-reader';
+//import {QrReader} from 'react-qr-reader';
 
 function MemberDetails() {
   const { id } = useParams();
