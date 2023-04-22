@@ -1,0 +1,42 @@
+.name
+    {
+        color: #3e7274;
+        margin: 1px auto 0 auto;  /*margins go as top right bottom and then left*/
+        font-size: 5vw;
+        font-family:'Times New Roman', Times, serif;
+    }
+.estd
+    {
+        color:rgb(180, 149, 92);
+        margin-top: 2pt;
+        font-size: 2vw;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+.location
+{
+    color: darksalmon;
+    margin-top:3pt;
+    font-size: 3vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quote{
+    color:cornflowerblue;
+    margin-top: 3pt;
+    font-size: 2.5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    width:100vw;
+}
+.left-logo{
+    float: left;
+    padding: 10px;
+}
+.right-logo{
+    float: inline-end;
+    padding: 10px;
+}
+
+.logo{
+    width: 20vw;
+}
