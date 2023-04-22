@@ -27,7 +27,7 @@ app.get('/members/:id', (req, res) => {
     } else if (rows.length === 0) {
       res.status(404).send('Member not found');
     } else {
-      const member = rows[{memberId}+1];
+      const member = rows[memberId];
       res.send({
         id: member.id,
         name: member.name,

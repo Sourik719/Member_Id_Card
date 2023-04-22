@@ -6,9 +6,13 @@ import Footer from './footer';
 
 function App() {
   return (
-   
+    <BrowserRouter>
       <Header/>
-      
+      <Routes>
+      <Route exact path="/members/:id" Component={MemberDetails} />
+      </Routes>
+    <Footer/>
+  </BrowserRouter>
   );
 }
 
