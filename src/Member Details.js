@@ -42,10 +42,6 @@ function MemberDetails() {
   };
 
   return (
-    <div>
-    <div>
-      <Header />
-      </div>
       <div className='container'>
         <div className='row'>
           <div className='col-md-4'></div>
@@ -94,10 +90,6 @@ function MemberDetails() {
           <div className='col-md-4'></div>
         </div>
       </div>
-      <div>
-      <Footer />
-    </div>
-    </div>
   );
 }
 
